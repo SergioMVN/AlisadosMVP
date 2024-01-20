@@ -328,15 +328,15 @@ hr {
 
   /*ESTILOS DE LOGOTIPO PRINCIPAL*/
   .center-container {
-    max-width: 50%; /* Ajusta el ancho máximo según tus preferencias */
+    max-width: 80%;
     margin: auto;
+    text-align: center; /* Centra la imagen en dispositivos móviles */
 }
 
 .center-container img {
     max-width: 100%;
     height: auto;
-    display: block;
+    display: inline-block;
     margin: 0;
     padding: 0;
 }
-  
