@@ -44,7 +44,8 @@ section {
 
 
 footer {
-    background-color: #2c313c;
+    background-color:  #db34b7;
+    font-family: 'Dancing Script', cursive; /* Utiliza la fuente Dancing Script para el título */
     color: #fff;
     text-align: center;
     padding: 10px;
