@@ -1,0 +1,312 @@
+/* stylesIndex.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+header {
+    background-color: #db34b7;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.button {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+/* Estilos para el Carrusel */
+#carouselExampleSlidesOnly {
+    max-width: none; /* Deja el tamaño normal del carrusel */
+    margin: 20px auto;
+}
+
+.carousel-item img {
+    max-height: 200px; /* Ajusta el tamaño según sea necesario */
+}
+
+/* Estilos para las Tarjetas de Imágenes */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: calc(30% - 20px); /* Ajusta el ancho y el margen según sea necesario */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    flex: 1; /* Hace que la imagen ocupe todo el espacio disponible en la tarjeta */
+    width: 100%;
+    height: auto;
+}
+
+/* stylesIndex.css */
+
+.card-body {
+    padding: 15px;
+    overflow: hidden; /* Añade esto para ocultar el desbordamiento del contenido */
+}
+
+.card-text {
+    font-size: 14px; /* Ajusta el tamaño del texto según sea necesario */
+    max-height: 100px; /* Establece la altura máxima del texto */
+    overflow: hidden; /* Añade esto para ocultar el desbordamiento del texto */
+}
+
+
+footer {
+    background-color: #2c313c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* stylesIndex.css */
+
+header {
+    background-color: #db34b7;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Añade posición relativa para posicionar el logo dentro del encabezado */
+}
+
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Resto de tu código ... */
+
+
+/* stylesIndex.css */
+
+.text-white{
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive; /* Utiliza la fuente Dancing Script para el título */
+}
+
+
+/* ESTILOS DE PÁGINA INDEX */
+/* ... (otros estilos) ... */
+
+/* Estilo personalizado para el botón Ir con paleta de colores #db34b7 */
+.btn-primary {
+    background-color: #db34b7 !important;
+    border-color: #db34b7 !important;
+}
+
+/* ... (otros estilos) ... */
+
+
+.bg-custom {
+    background-color: #db34b7 !important;
+}
+
+
+
+
+
+
+/*PRUEBA DE ESTILOS PARA TARJETAS*/
+
+
+/* stylesIndex.css */
+
+.card {
+    width: 18rem;
+    border: 1px solid #db34b7; /* Color del borde */
+    border-radius: 10px; /* Radio de borde para esquinas redondeadas */
+    overflow: hidden; /* Oculta el desbordamiento de la imagen */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transición al pasar el cursor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra inicial */
+    animation: cardMovement 2s infinite alternate; /* Agrega una animación continua */
+}
+
+@keyframes cardMovement {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px); /* Mueve la tarjeta hacia arriba de manera más pronunciada */
+    }
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    color: #db34b7; /* Color del título */
+}
+
+.card-text {
+    color: #555; /* Color del texto */
+}
+
+.btn-primary {
+    background-color: #db34b7; /* Color del botón */
+    border-color: #db34b7; /* Color del borde del botón */
+}
+
+.btn-primary:hover {
+    background-color: #fff; /* Cambia el color al pasar el cursor */
+    color: #db34b7; /* Cambia el color del texto al pasar el cursor */
+}
+
+
+/* Estilo adicional para el segundo botón */
+.btn-primary {
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transiciones suaves */
+
+    /* Puedes agregar más estilos según tus preferencias */
+}
+
+.btn-primary:hover {
+    transform: scale(1.1); /* Hace que el botón se agrande ligeramente al pasar el cursor */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Aumenta la sombra al pasar el cursor */
+    /* Puedes agregar más estilos de hover según tus preferencias */
+}
+
+.btn-primary:active {
+    transform: scale(0.9); /* Reduzca el tamaño al hacer clic */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra más suave al hacer clic */
+    /* Puedes agregar más estilos para el estado activo según tus preferencias */
+}
+
+
+
+
+
+
+
+/* Estilos para el Carrusel */
+#carouselExampleSlidesOnly {
+    max-width: none; /* Deja el tamaño normal del carrusel */
+    margin: 20px auto;
+    border: 1px solid #db34b7; /* Añade un borde al carrusel */
+    border-radius: 10px; /* Agrega bordes redondeados */
+    overflow: hidden; /* Oculta el desbordamiento de las imágenes */
+    transition: transform 0.3s; /* Transición al pasar el cursor */
+}
+
+#carouselExampleSlidesOnly:hover {
+    transform: scale(1.05); /* Escala el carrusel al pasar el cursor */
+}
+
+.carousel-item img {
+    max-height: 200px; /* Ajusta el tamaño según sea necesario */
+    border-radius: 10px; /* Agrega bordes redondeados a las imágenes */
+    transition: transform 0.3s; /* Transición al pasar el cursor */
+}
+
+.carousel-item img:hover {
+    transform: scale(1.2); /* Escala las imágenes al pasar el cursor */
+}
+
+.tituloPaginaServicios{
+    font-family: 'Dancing Script', cursive; /* Utiliza la fuente Dancing Script para el título */
+}
+
+hr {
+    border: none !important;
+    border-top: 2px solid #db34b7 !important; /* Color y grosor de la línea */
+    margin: 20px 0 !important; /* Margen superior e inferior para separar del contenido */
+}
+
+.tituloServicios {
+    text-align: center !important;
+    font-family: 'Dancing Script', cursive !important;
+}
+
+/* Estilo adicional para el botón de navegación */
+.nav-item a.btn-primary {
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transiciones suaves */
+
+    /* Puedes agregar más estilos según tus preferencias */
+}
+
+.nav-item a.btn-primary:hover {
+    transform: scale(1.1); /* Hace que el botón se agrande ligeramente al pasar el cursor */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Aumenta la sombra al pasar el cursor */
+    /* Puedes agregar más estilos de hover según tus preferencias */
+}
+
+.nav-item a.btn-primary:active {
+    transform: scale(0.9); /* Reduzca el tamaño al hacer clic */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra más suave al hacer clic */
+    /* Puedes agregar más estilos para el estado activo según tus preferencias */
+}
+
+
+
+
+/*BOTON DE WHATSSAP*/
+/* Estilos para el botón de WhatsApp flotante */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.whatsapp-btn a {
+    display: block;
+    background-color: #25D366; /* Color de fondo de WhatsApp */
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.whatsapp-btn a img {
+    width: 30px; /* Ajusta el tamaño del ícono según sea necesario */
+    height: auto;
+}
+
+.whatsapp-btn a:hover {
+    background-color: #128C7E; /* Cambia el color al pasar el cursor */
+}
