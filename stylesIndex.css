@@ -295,7 +295,6 @@ hr {
 
 .whatsapp-btn a {
     display: block;
-    background-color: #25D366; /* Color de fondo de WhatsApp */
     padding: 10px;
     border-radius: 50%;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -310,3 +309,34 @@ hr {
 .whatsapp-btn a:hover {
     background-color: #128C7E; /* Cambia el color al pasar el cursor */
 }
+
+
+/*COLORES DE LA BARRA DE NAVEGACION*/
+/* Agrega la clase custom-navbar */
+.custom-navbar {
+    background-color: #db34b7;
+  }
+  
+
+  /*TEXTO DE LA BARRA DE NAVEGACION*/
+.navbar-brand span {
+    font-family: 'Dancing Script', cursive;
+  }
+  
+
+
+
+  /*ESTILOS DE LOGOTIPO PRINCIPAL*/
+  .center-container {
+    max-width: 50%; /* Ajusta el ancho máximo según tus preferencias */
+    margin: auto;
+}
+
+.center-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+  
